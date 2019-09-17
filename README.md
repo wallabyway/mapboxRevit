@@ -1,7 +1,7 @@
 # mapbox Revit
 View Revit models inside Mapbox, and click on Revit properties.
 
-<img src="https://user-images.githubusercontent.com/440241/65015225-beaaa980-d8d5-11e9-94ce-4876c628ac09.gif" width="100%>
+<img src="https://user-images.githubusercontent.com/440241/65015225-beaaa980-d8d5-11e9-94ce-4876c628ac09.gif" width="100%">
 
 ### Notes
 
