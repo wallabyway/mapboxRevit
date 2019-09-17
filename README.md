@@ -86,3 +86,7 @@ c85e5be0-d8d5-4148-836f-b55e711ef373-00068ac9	Type Name	Identity Data	20	SIP 202
 
 ...and matches what's in the Forge viewer's property panel (see above).
 
+Also note that the glTF converted files contain additional meta-data.
+
+- the gltf node 'name' is a string version of the dbID
+- the meta-data side file contains the [lat, long] value taken from the Revit file 
