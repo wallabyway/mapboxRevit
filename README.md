@@ -1,5 +1,7 @@
-# mapbox Revit
+# View Revit files inside MapBox
 View Revit models inside Mapbox, and click on Revit properties.
+
+## DEMO: https://wallabyway.github.io/mapboxRevit/
 
 <img src="https://user-images.githubusercontent.com/440241/65015225-beaaa980-d8d5-11e9-94ce-4876c628ac09.gif" width="100%">
 
