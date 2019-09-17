@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>MapBox with Forge Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+    <link href='https://wallabyway.github.io/toolkitServerv2/skeleton.min.css' rel='stylesheet' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        .navbar {background: #ffffffe0;}
+        .navbar-img {margin: 15px;}
+    </style>
+</head>
+<body>
+<div id='map'></div>
+  <div class="container">
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><img class="navbar-img" src="https://wallabyway.github.io/toolkitServerv2/logo.png"/></li>
+          <li class="navbar-item"><button onClick="buildings.flyToHome()" class="navbar-button button-primary">Home</button></li>
+          <li class="navbar-itemr"><a href="https://github.com/wallabyway/mapboxRevit"><button class="navbar-button">GitHub</button></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="toast"></div>
+<script src='https://unpkg.com/three@0.106.2/build/three.js'></script>
+<script src="https://unpkg.com/three@0.106.2/examples/js/loaders/GLTFLoader.js"></script>
+<script language="JavaScript" src="https://xf79h9aa3l.execute-api.us-west-2.amazonaws.com/toolkit2/api/_adsk.js"></script>
+</body>
+<script src='app.js'></script>
+</html>

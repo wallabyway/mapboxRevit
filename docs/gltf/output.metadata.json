@@ -1,0 +1,77 @@
+{
+    "version": "1.0",
+    "metadata": {
+        "double sided geometry": {
+            "value": false
+        },
+        "navigation hint": {
+            "value": "Turntable"
+        },
+        "world bounding box": {
+            "minXYZ": [
+                -84.249969,
+                -164.01239,
+                -27.288076
+            ],
+            "maxXYZ": [
+                81.21241,
+                66.841797,
+                35.568898
+            ]
+        },
+        "world up vector": {
+            "XYZ": [
+                0,
+                0,
+                1
+            ]
+        },
+        "world front vector": {
+            "XYZ": [
+                0,
+                -1,
+                0
+            ]
+        },
+        "world north vector": {
+            "XYZ": [
+                0,
+                1,
+                0
+            ]
+        },
+        "distance unit": {
+            "value": "foot"
+        },
+        "default camera": {
+            "index": 0
+        },
+        "view to model transform": {
+            "type": 4
+        },
+        "georeference": {
+            "positionLL84": [
+                -71.0335,
+                42.213,
+                0
+            ]
+        },
+        "custom values": {
+            "angleToTrueNorth": 323,
+            "refPointTransform": [
+                0.798636,
+                0.601815,
+                0,
+                -0.601815,
+                0.798636,
+                0,
+                0,
+                0,
+                1,
+                -65.038051,
+                -61.70702,
+                0
+            ]
+        }
+    }
+}
