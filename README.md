@@ -89,4 +89,4 @@ c85e5be0-d8d5-4148-836f-b55e711ef373-00068ac9	Type Name	Identity Data	20	SIP 202
 Also note that the glTF converted files contain additional meta-data.
 
 - the gltf node 'name' is a string version of the dbID
-- the meta-data side file contains the [lat, long] value taken from the Revit file 
+- the [metadata.json](https://github.com/wallabyway/mapboxRevit/blob/master/docs/gltf/output.metadata.json) file contains the Revit files [lat, long], which you can feed into Mapbox for positioning of the model.
